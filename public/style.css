@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="file"] {
+  margin: 15px 0;
+}
+
+.progress {
+  width: 100%;
+  background: #eee;
+  border-radius: 10px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background: #4CAF50;
+  border-radius: 10px;
+  transition: width 0.3s;
+}
+
+#status {
+  margin-top: 10px;
+  font-weight: bold;
+}
